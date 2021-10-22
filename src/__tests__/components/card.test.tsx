@@ -14,7 +14,7 @@ it("renders correctly", () => {
     <DocumentFragment>
       .c0 {
       background: #E7E3EB;
-      border-radius: 24px;
+      border-radius: 2px;
       color: #280D5F;
       overflow: hidden;
       position: relative;
@@ -26,7 +26,7 @@ it("renders correctly", () => {
       height: 100%;
       overflow: inherit;
       background: #FFFFFF;
-      border-radius: 24px;
+      border-radius: 2px;
     }
 
     .c3 {
