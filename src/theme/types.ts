@@ -37,6 +37,7 @@ export type Gradients = {
   violet: string;
   violetAlt: string;
   gold: string;
+  linear: string;
 };
 
 export type Colors = {
@@ -73,6 +74,11 @@ export type Colors = {
   gold: string;
   silver: string;
   bronze: string;
+  gray: string;
+  green: string;
+  yellow: string;
+  red: string;
+  blue: string;
 };
 
 export type ZIndices = {
