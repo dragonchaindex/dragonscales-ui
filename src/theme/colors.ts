@@ -17,7 +17,7 @@ export const additionalColors = {
   gold: "#FFC700",
   silver: "#B2B2B2",
   bronze: "#E7974D",
-  gray: "#F6F6F6",
+  grey: "#F6F6F6",
   green: "green",
   yellow: "yellow",
   red: "red",
