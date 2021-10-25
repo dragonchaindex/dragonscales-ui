@@ -269,7 +269,7 @@ var getOpacity = function (_a) {
     var _b = _a.$isLoading, $isLoading = _b === void 0 ? false : _b;
     return $isLoading ? ".5" : "1";
 };
-var StyledButton = styled__default["default"].button(templateObject_1$17 || (templateObject_1$17 = __makeTemplateObject(["\n  align-items: center;\n  border: 0;\n  border-radius: 2px;\n  box-shadow: 0px -1px 0px 0px rgba(14, 14, 44, 0.4) inset;\n  cursor: pointer;\n  display: inline-flex;\n  font-family: inherit;\n  font-size: 16px;\n  font-weight: 600;\n  justify-content: center;\n  letter-spacing: 0.03em;\n  line-height: 1;\n  opacity: ", ";\n  outline: 0;\n  transition: background-color 0.2s, opacity 0.2s;\n\n  &:hover:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled):not(:active) {\n    opacity: 0.65;\n  }\n\n  &:active:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled) {\n    opacity: 0.85;\n    transform: translateY(1px);\n    box-shadow: none;\n  }\n\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n"], ["\n  align-items: center;\n  border: 0;\n  border-radius: 2px;\n  box-shadow: 0px -1px 0px 0px rgba(14, 14, 44, 0.4) inset;\n  cursor: pointer;\n  display: inline-flex;\n  font-family: inherit;\n  font-size: 16px;\n  font-weight: 600;\n  justify-content: center;\n  letter-spacing: 0.03em;\n  line-height: 1;\n  opacity: ", ";\n  outline: 0;\n  transition: background-color 0.2s, opacity 0.2s;\n\n  &:hover:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled):not(:active) {\n    opacity: 0.65;\n  }\n\n  &:active:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled) {\n    opacity: 0.85;\n    transform: translateY(1px);\n    box-shadow: none;\n  }\n\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n"])), getOpacity, getDisabledStyles, styledSystem.variant({
+var StyledButton = styled__default["default"].button(templateObject_1$17 || (templateObject_1$17 = __makeTemplateObject(["\n  align-items: center;\n  border: 0;\n  border-radius: 10px;\n  box-shadow: 0px -1px 0px 0px rgba(14, 14, 44, 0.4) inset;\n  cursor: pointer;\n  display: inline-flex;\n  font-family: inherit;\n  font-size: 16px;\n  font-weight: 600;\n  justify-content: center;\n  letter-spacing: 0.03em;\n  line-height: 1;\n  opacity: ", ";\n  outline: 0;\n  transition: background-color 0.2s, opacity 0.2s;\n\n  &:hover:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled):not(:active) {\n    opacity: 0.65;\n  }\n\n  &:active:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled) {\n    opacity: 0.85;\n    transform: translateY(1px);\n    box-shadow: none;\n  }\n\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n"], ["\n  align-items: center;\n  border: 0;\n  border-radius: 10px;\n  box-shadow: 0px -1px 0px 0px rgba(14, 14, 44, 0.4) inset;\n  cursor: pointer;\n  display: inline-flex;\n  font-family: inherit;\n  font-size: 16px;\n  font-weight: 600;\n  justify-content: center;\n  letter-spacing: 0.03em;\n  line-height: 1;\n  opacity: ", ";\n  outline: 0;\n  transition: background-color 0.2s, opacity 0.2s;\n\n  &:hover:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled):not(:active) {\n    opacity: 0.65;\n  }\n\n  &:active:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled) {\n    opacity: 0.85;\n    transform: translateY(1px);\n    box-shadow: none;\n  }\n\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n"])), getOpacity, getDisabledStyles, styledSystem.variant({
     prop: "scale",
     variants: scaleVariants$1,
 }), styledSystem.variant({
@@ -699,16 +699,7 @@ var LogoWithTextIcon = React__default["default"].memo(Logo$2, function (prev, ne
 
 var Icon$1l = function (props) {
     return (React__default["default"].createElement(Svg, __assign({ viewBox: "0 0 512 512" }, props),
-        React__default["default"].createElement("circle", { cx: "256", cy: "256", r: "256", fill: "url(#paint0_linear_logoround)" }),
-        React__default["default"].createElement("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M149.813 139.861C144.738 112.406 165.591 87.0417 193.238 87.0417C217.636 87.0417 237.414 107.022 237.414 131.669V186.687C243.517 186.252 249.718 186.028 255.998 186.028C262.032 186.028 267.992 186.234 273.862 186.636V131.669C273.862 107.022 293.641 87.0417 318.039 87.0417C345.686 87.0417 366.539 112.406 361.464 139.861L349.509 204.532C390.538 222.627 421.562 254.056 421.562 293.548V317.442C421.562 349.919 400.293 377.11 370.56 395.466C340.595 413.965 300.058 424.962 255.998 424.962C211.939 424.962 171.401 413.965 141.436 395.466C111.703 377.11 90.4342 349.919 90.4342 317.442V293.548C90.4342 254.265 121.139 222.957 161.822 204.825L149.813 139.861ZM334.189 213.028L348.178 137.354C351.701 118.299 337.227 100.695 318.039 100.695C301.105 100.695 287.378 114.562 287.378 131.669V201.683C282.941 201.108 278.433 200.653 273.862 200.323C268.003 199.899 262.042 199.682 255.998 199.682C249.707 199.682 243.505 199.918 237.414 200.376C232.844 200.72 228.335 201.189 223.899 201.777V131.669C223.899 114.562 210.172 100.695 193.238 100.695C174.05 100.695 159.576 118.299 163.099 137.354L177.134 213.279C133.257 229.744 103.95 259.533 103.95 293.548V317.442C103.95 369.283 172.024 411.308 255.998 411.308C339.972 411.308 408.047 369.283 408.047 317.442V293.548C408.047 259.36 378.439 229.44 334.189 213.028Z", fill: "#633001" }),
-        React__default["default"].createElement("path", { d: "M408.047 317.442C408.047 369.283 339.972 411.308 255.998 411.308C172.024 411.308 103.95 369.283 103.95 317.442V293.548H408.047V317.442Z", fill: "#FEDC90" }),
-        React__default["default"].createElement("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M163.099 137.354C159.576 118.299 174.05 100.695 193.238 100.695C210.172 100.695 223.899 114.562 223.899 131.669V201.777C234.247 200.404 244.986 199.682 255.998 199.682C266.755 199.682 277.252 200.371 287.378 201.683V131.669C287.378 114.562 301.105 100.695 318.039 100.695C337.227 100.695 351.701 118.299 348.178 137.354L334.189 213.028C378.439 229.44 408.047 259.36 408.047 293.548C408.047 345.389 339.972 387.415 255.998 387.415C172.024 387.415 103.95 345.389 103.95 293.548C103.95 259.533 133.257 229.744 177.134 213.279L163.099 137.354Z", fill: "#D1884F" }),
-        React__default["default"].createElement("path", { d: "M213.762 286.722C213.762 300.86 206.199 312.322 196.868 312.322C187.538 312.322 179.974 300.86 179.974 286.722C179.974 272.583 187.538 261.122 196.868 261.122C206.199 261.122 213.762 272.583 213.762 286.722Z", fill: "#633001" }),
-        React__default["default"].createElement("path", { d: "M330.333 286.722C330.333 300.86 322.769 312.322 313.439 312.322C304.108 312.322 296.544 300.86 296.544 286.722C296.544 272.583 304.108 261.122 313.439 261.122C322.769 261.122 330.333 272.583 330.333 286.722Z", fill: "#633001" }),
-        React__default["default"].createElement("defs", null,
-            React__default["default"].createElement("linearGradient", { id: "paint0_linear_logoround", x1: "256", y1: "0", x2: "256", y2: "512", gradientUnits: "userSpaceOnUse" },
-                React__default["default"].createElement("stop", { stopColor: "#54DADE" }),
-                React__default["default"].createElement("stop", { offset: "0.762157", stopColor: "#24C7D6" })))));
+        React__default["default"].createElement("image", { width: "512", height: "512", href: './images/dragon_token_logo.png'  })));
 };
 
 var Icon$1k = function (props) {
@@ -907,34 +898,7 @@ var Icon$14 = function (props) {
 
 var Icon$13 = function (props) {
     return (React__default["default"].createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React__default["default"].createElement("circle", { cx: "45", cy: "45", r: "45", fill: "url(#paint0_linear_pancakeround)" }),
-        React__default["default"].createElement("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M15.7703 49.9442C15.7626 50.1122 15.7587 50.2809 15.7587 50.4501C15.7587 51.0897 15.8144 51.7214 15.923 52.3435H15.7587V53.3228C15.7587 53.8008 15.7898 54.2744 15.8508 54.7428C17.0423 63.8844 29.6377 71.0772 45 71.0772C60.3623 71.0772 72.9577 63.8844 74.1492 54.7428C74.2102 54.2744 74.2413 53.8008 74.2413 53.3228V52.3435H74.077C74.1856 51.7214 74.2413 51.0897 74.2413 50.4501C74.2413 50.2809 74.2374 50.1122 74.2297 49.9442C73.7886 40.3727 60.8709 32.6957 45 32.6957C29.1291 32.6957 16.2114 40.3727 15.7703 49.9442ZM13.3688 49.9442C13.5863 44.1042 17.5547 39.1986 23.0781 35.845C28.8037 32.3686 36.5601 30.2964 45 30.2964C53.4399 30.2964 61.1964 32.3686 66.9219 35.845C72.4453 39.1986 76.4137 44.1042 76.6312 49.9442H76.6406V53.3228C76.6406 59.3853 72.6041 64.4779 66.9219 67.9279C61.1964 71.4043 53.4399 73.4765 45 73.4765C36.5601 73.4765 28.8037 71.4043 23.0781 67.9279C17.3959 64.4779 13.3594 59.3853 13.3594 53.3228V49.9442H13.3688Z", fill: "#606063" }),
-        React__default["default"].createElement("path", { d: "M74.2412 53.3233C74.2412 63.1287 61.1494 71.0776 44.9999 71.0776C28.8503 71.0776 15.7585 63.1287 15.7585 53.3233V50.5127H74.2412V53.3233Z", fill: "#BEBEBE" }),
-        React__default["default"].createElement("path", { d: "M74.2412 50.4502C74.2412 60.2557 61.1494 68.2046 44.9999 68.2046C28.8503 68.2046 15.7585 60.2557 15.7585 50.4502C15.7585 40.6447 28.8503 32.6958 44.9999 32.6958C61.1494 32.6958 74.2412 40.6447 74.2412 50.4502Z", fill: "#FAF9FA" }),
-        React__default["default"].createElement("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M20.2578 45.4345C20.2577 45.4456 20.2577 45.4567 20.2577 45.4679C20.2577 46.2752 20.3747 47.0659 20.5989 47.8338H20.2574V48.8736C20.2574 49.3326 20.2953 49.7861 20.3691 50.2332C21.4839 56.9839 30.8104 62.2532 42.1508 62.2532C53.4912 62.2532 62.8178 56.9839 63.9326 50.2332C64.0064 49.7861 64.0442 49.3326 64.0442 48.8736V47.8338H63.7032C63.9213 47.0868 64.038 46.3183 64.0442 45.5339C64.0444 45.5119 64.0445 45.4899 64.0445 45.4679C64.0445 45.4567 64.0444 45.4456 64.0444 45.4345C64.015 38.0605 54.2243 32.0883 42.1511 32.0883C30.0779 32.0883 20.2872 38.0605 20.2578 45.4345ZM17.8585 45.4345H17.8582V48.8736C17.8582 53.7204 21.0631 57.7199 25.4188 60.3817C29.8156 63.0687 35.7372 64.6525 42.1508 64.6525C48.5644 64.6525 54.4861 63.0687 58.8829 60.3817C63.2385 57.7199 66.4435 53.7204 66.4435 48.8736V45.5428C66.4437 45.5178 66.4438 45.4928 66.4438 45.4679C66.4438 40.621 63.2388 36.6216 58.8832 33.9598C54.4863 31.2728 48.5647 29.689 42.1511 29.689C35.7375 29.689 29.8158 31.2728 25.419 33.9598C21.0734 36.6155 17.8731 40.6027 17.8585 45.4345Z", fill: "#633001" }),
-        React__default["default"].createElement("path", { d: "M64.0441 48.8738C64.0441 56.2631 54.2421 62.2534 42.1507 62.2534C30.0593 62.2534 20.2573 56.2631 20.2573 48.8738V45.7346H64.0441V48.8738Z", fill: "#FEDC90" }),
-        React__default["default"].createElement("path", { d: "M64.0441 45.4679C64.0441 52.8573 54.2421 58.8475 42.1507 58.8475C30.0593 58.8475 20.2573 52.8573 20.2573 45.4679C20.2573 38.0786 30.0593 32.0884 42.1507 32.0884C54.2421 32.0884 64.0441 38.0786 64.0441 45.4679Z", fill: "#D1884F" }),
-        React__default["default"].createElement("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M26.8557 38.2365C26.8556 38.2476 26.8556 38.2587 26.8556 38.2699C26.8556 39.0772 26.9726 39.8679 27.1968 40.6359H26.8553V41.6756C26.8553 42.1346 26.8932 42.5881 26.967 43.0352C28.0818 49.7859 37.4083 55.0552 48.7487 55.0552C60.0891 55.0552 69.4157 49.7859 70.5305 43.0352C70.6043 42.5881 70.6421 42.1346 70.6421 41.6756V40.6359H70.3011C70.5192 39.8888 70.6359 39.1203 70.6421 38.3359C70.6423 38.3139 70.6424 38.2919 70.6424 38.2699C70.6424 38.2587 70.6423 38.2476 70.6423 38.2365C70.6129 30.8625 60.8222 24.8903 48.749 24.8903C36.6758 24.8903 26.8851 30.8625 26.8557 38.2365ZM24.4564 38.2365H24.4561V41.6756C24.4561 46.5224 27.661 50.5219 32.0167 53.1837C36.4135 55.8707 42.3351 57.4545 48.7487 57.4545C55.1623 57.4545 61.084 55.8707 65.4808 53.1837C69.8364 50.5219 73.0414 46.5224 73.0414 41.6756V38.3448C73.0416 38.3198 73.0417 38.2948 73.0417 38.2699C73.0417 33.4231 69.8367 29.4236 65.4811 26.7618C61.0842 24.0748 55.1626 22.491 48.749 22.491C42.3354 22.491 36.4137 24.0748 32.0169 26.7618C27.6713 29.4175 24.471 33.4047 24.4564 38.2365Z", fill: "#633001" }),
-        React__default["default"].createElement("path", { d: "M70.6422 41.6758C70.6422 49.0651 60.8402 55.0554 48.7488 55.0554C36.6575 55.0554 26.8555 49.0651 26.8555 41.6758V38.5366H70.6422V41.6758Z", fill: "#FEDC90" }),
-        React__default["default"].createElement("path", { d: "M70.6422 38.2699C70.6422 45.6593 60.8402 51.6495 48.7488 51.6495C36.6575 51.6495 26.8555 45.6593 26.8555 38.2699C26.8555 30.8806 36.6575 24.8904 48.7488 24.8904C60.8402 24.8904 70.6422 30.8806 70.6422 38.2699Z", fill: "#D1884F" }),
-        React__default["default"].createElement("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M20.2578 31.0385C20.2577 31.0496 20.2577 31.0607 20.2577 31.0719C20.2577 31.8792 20.3747 32.6699 20.5989 33.4379H20.2574V34.4776C20.2574 34.9366 20.2953 35.3901 20.3691 35.8372C21.4839 42.5879 30.8104 47.8572 42.1508 47.8572C53.4912 47.8572 62.8178 42.5879 63.9326 35.8372C64.0064 35.3901 64.0442 34.9366 64.0442 34.4776V33.4379H63.7032C63.9213 32.6908 64.038 31.9223 64.0442 31.1379C64.0444 31.1159 64.0445 31.0939 64.0445 31.0719C64.0445 31.0607 64.0444 31.0496 64.0444 31.0385C64.015 23.6645 54.2243 17.6923 42.1511 17.6923C30.0779 17.6923 20.2872 23.6645 20.2578 31.0385ZM17.8585 31.0385H17.8582V34.4776C17.8582 39.3244 21.0631 43.3239 25.4188 45.9857C29.8156 48.6727 35.7372 50.2565 42.1508 50.2565C48.5644 50.2565 54.4861 48.6727 58.8829 45.9857C63.2385 43.3239 66.4435 39.3244 66.4435 34.4776V31.1468C66.4437 31.1218 66.4438 31.0968 66.4438 31.0719C66.4438 26.2251 63.2388 22.2256 58.8832 19.5638C54.4863 16.8768 48.5647 15.293 42.1511 15.293C35.7375 15.293 29.8158 16.8768 25.419 19.5638C21.0734 22.2195 17.8731 26.2067 17.8585 31.0385Z", fill: "#633001" }),
-        React__default["default"].createElement("path", { d: "M64.0441 34.4778C64.0441 41.8671 54.2421 47.8574 42.1507 47.8574C30.0593 47.8574 20.2573 41.8671 20.2573 34.4778V31.3386H64.0441V34.4778Z", fill: "#FEDC90" }),
-        React__default["default"].createElement("path", { d: "M64.0441 31.0719C64.0441 38.4613 54.2421 44.4515 42.1507 44.4515C30.0593 44.4515 20.2573 38.4613 20.2573 31.0719C20.2573 23.6826 30.0593 17.6924 42.1507 17.6924C54.2421 17.6924 64.0441 23.6826 64.0441 31.0719Z", fill: "#D1884F" }),
-        React__default["default"].createElement("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M25.4361 31.9044C25.4361 34.3714 27.2287 36.5809 30.0567 38.0676L28.0973 41.4614L28.0977 41.4617H28.0973V50.0509C28.0973 51.1867 29.018 52.1075 30.1538 52.1075C31.2896 52.1075 32.2104 51.1867 32.2104 50.0509V43.22L34.3184 39.5686C35.6663 39.8545 37.1133 40.0097 38.6192 40.0097C45.9 40.0097 51.8022 36.3808 51.8022 31.9044C51.8022 27.428 45.9 23.7991 38.6192 23.7991C31.3383 23.7991 25.4361 27.428 25.4361 31.9044Z", fill: "url(#paint1_linear_pancakeround)" }),
-        React__default["default"].createElement("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M30.0569 38.0676C29.7437 37.9029 29.4431 37.7294 29.1563 37.5476C26.8538 36.0883 25.4363 34.0982 25.4363 31.9045C25.4363 27.428 31.3386 23.7991 38.6194 23.7991C45.9002 23.7991 51.8025 27.428 51.8025 31.9045C51.8025 36.3809 45.9002 40.0098 38.6194 40.0098C37.1135 40.0098 35.6666 39.8545 34.3187 39.5687L32.2106 43.22V50.0509C32.2106 51.1868 31.2899 52.1075 30.1541 52.1075C29.0183 52.1075 28.0975 51.1868 28.0975 50.0509V41.4617L30.0569 38.0676ZM25.9981 41.4978V50.0509C25.9981 52.3462 27.8588 54.2069 30.1541 54.2069C32.4493 54.2069 34.31 52.3462 34.31 50.0509V43.7826L35.4034 41.8887C36.4418 42.0334 37.5181 42.1092 38.6194 42.1092C42.584 42.1092 46.2738 41.1254 49.0408 39.4242C51.7735 37.7441 53.9019 35.1446 53.9019 31.9045C53.9019 28.6643 51.7735 26.0648 49.0408 24.3847C46.2738 22.6835 42.584 21.6997 38.6194 21.6997C34.6548 21.6997 30.965 22.6835 28.198 24.3847C25.4652 26.0648 23.3369 28.6643 23.3369 31.9045C23.3369 34.7481 24.9657 37.0898 27.2286 38.7677L26.2939 40.3867C26.2048 40.5358 26.1337 40.697 26.0835 40.8672C26.0221 41.0746 25.9943 41.2873 25.9981 41.4978Z", fill: "#633001" }),
-        React__default["default"].createElement("path", { d: "M29.5544 28.4894C29.5544 30.8083 32.5084 32.6882 36.1524 32.6882C39.7964 32.6882 42.7505 30.8083 42.7505 28.4894C42.7505 26.1704 39.7964 24.2905 36.1524 24.2905C32.5084 24.2905 29.5544 26.1704 29.5544 28.4894Z", fill: "#9E7200" }),
-        React__default["default"].createElement("path", { d: "M29.5547 26.6899H42.7508V28.4894H29.5547V26.6899Z", fill: "#9E7200" }),
-        React__default["default"].createElement("path", { d: "M29.5544 26.6898C29.5544 29.0088 32.5084 30.8887 36.1524 30.8887C39.7964 30.8887 42.7505 29.0088 42.7505 26.6898C42.7505 24.3709 39.7964 22.491 36.1524 22.491C32.5084 22.491 29.5544 24.3709 29.5544 26.6898Z", fill: "#F0B90B" }),
-        React__default["default"].createElement("path", { d: "M33.6489 26.1838L35.5086 25.0003C35.9016 24.7502 36.4038 24.7502 36.7968 25.0003L38.6565 26.1838C39.0269 26.4195 39.0269 26.9602 38.6565 27.1959L36.7968 28.3794C36.4038 28.6295 35.9016 28.6295 35.5086 28.3794L33.6489 27.1959C33.2785 26.9602 33.2785 26.4195 33.6489 26.1838Z", fill: "#9E7200" }),
-        React__default["default"].createElement("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M30.3599 21.9496C31.9392 20.9446 33.9929 20.3916 36.1525 20.3916C38.3121 20.3916 40.3658 20.9446 41.9451 21.9496C43.4996 22.9389 44.8499 24.5636 44.8499 26.6899V28.4894C44.8499 30.6156 43.4996 32.2404 41.9451 33.2296C40.3658 34.2347 38.3121 34.7876 36.1525 34.7876C33.9929 34.7876 31.9392 34.2347 30.3599 33.2296C28.8054 32.2404 27.4551 30.6156 27.4551 28.4894V26.6899C27.4551 24.5636 28.8054 22.9389 30.3599 21.9496ZM36.1525 22.491C32.5085 22.491 29.5545 24.3709 29.5545 26.6899V28.4894C29.5545 30.8083 32.5085 32.6882 36.1525 32.6882C39.7965 32.6882 42.7505 30.8083 42.7505 28.4894V26.6899C42.7505 24.3709 39.7965 22.491 36.1525 22.491Z", fill: "#633001" }),
-        React__default["default"].createElement("defs", null,
-            React__default["default"].createElement("linearGradient", { id: "paint0_linear_pancakeround", x1: "45", y1: "0", x2: "45", y2: "90", gradientUnits: "userSpaceOnUse" },
-                React__default["default"].createElement("stop", { stopColor: "#54DADE" }),
-                React__default["default"].createElement("stop", { offset: "0.762157", stopColor: "#24C7D6" })),
-            React__default["default"].createElement("linearGradient", { id: "paint1_linear_pancakeround", x1: "38.7618", y1: "24.0704", x2: "38.7618", y2: "51.8948", gradientUnits: "userSpaceOnUse" },
-                React__default["default"].createElement("stop", { stopColor: "#9F4A08" }),
-                React__default["default"].createElement("stop", { offset: "0.370494", stopColor: "#7D3900" }),
-                React__default["default"].createElement("stop", { offset: "1", stopColor: "#8D4104" })))));
+        React__default["default"].createElement("image", { width: "90", height: "90", href: '../images/dragon_token_logo.png'  })));
 };
 
 var Icon$12 = function (props) {
@@ -1653,7 +1617,7 @@ var Details = styled__default["default"].div(templateObject_2$x || (templateObje
     return (hasHandler ? withHandlerSpacing + "px" : "12px");
 });
 var CloseHandler = styled__default["default"].div(templateObject_3$e || (templateObject_3$e = __makeTemplateObject(["\n  border-radius: 0 16px 16px 0;\n  right: 8px;\n  position: absolute;\n  top: 8px;\n"], ["\n  border-radius: 0 16px 16px 0;\n  right: 8px;\n  position: absolute;\n  top: 8px;\n"])));
-var StyledAlert = styled__default["default"](Flex)(templateObject_4$b || (templateObject_4$b = __makeTemplateObject(["\n  position: relative;\n  background-color: ", ";\n  border-radius: 2px;\n  box-shadow: 0px 20px 36px -8px rgba(14, 14, 44, 0.1), 0px 1px 1px rgba(0, 0, 0, 0.05);\n"], ["\n  position: relative;\n  background-color: ", ";\n  border-radius: 2px;\n  box-shadow: 0px 20px 36px -8px rgba(14, 14, 44, 0.1), 0px 1px 1px rgba(0, 0, 0, 0.05);\n"])), function (_a) {
+var StyledAlert = styled__default["default"](Flex)(templateObject_4$b || (templateObject_4$b = __makeTemplateObject(["\n  position: relative;\n  background-color: ", ";\n  border-radius: 10px;\n  box-shadow: 0px 20px 36px -8px rgba(14, 14, 44, 0.1), 0px 1px 1px rgba(0, 0, 0, 0.05);\n"], ["\n  position: relative;\n  background-color: ", ";\n  border-radius: 10px;\n  box-shadow: 0px 20px 36px -8px rgba(14, 14, 44, 0.1), 0px 1px 1px rgba(0, 0, 0, 0.05);\n"])), function (_a) {
     var theme = _a.theme;
     return theme.alert.background;
 });
@@ -1706,7 +1670,7 @@ var getHeight = function (_a) {
             return "40px";
     }
 };
-var Input$1 = styled__default["default"].input(templateObject_1$11 || (templateObject_1$11 = __makeTemplateObject(["\n  background-color: ", ";\n  border: 0;\n  border-radius: 2px;\n  box-shadow: ", ";\n  color: ", ";\n  display: block;\n  font-size: 16px;\n  height: ", ";\n  outline: 0;\n  padding: 0 16px;\n  width: 100%;\n  border: 1px solid ", ";\n\n  &::placeholder {\n    color: ", ";\n  }\n\n  &:disabled {\n    background-color: ", ";\n    box-shadow: none;\n    color: ", ";\n    cursor: not-allowed;\n  }\n\n  &:focus:not(:disabled) {\n    box-shadow: ", ";\n  }\n"], ["\n  background-color: ", ";\n  border: 0;\n  border-radius: 2px;\n  box-shadow: ", ";\n  color: ", ";\n  display: block;\n  font-size: 16px;\n  height: ", ";\n  outline: 0;\n  padding: 0 16px;\n  width: 100%;\n  border: 1px solid ", ";\n\n  &::placeholder {\n    color: ", ";\n  }\n\n  &:disabled {\n    background-color: ", ";\n    box-shadow: none;\n    color: ", ";\n    cursor: not-allowed;\n  }\n\n  &:focus:not(:disabled) {\n    box-shadow: ", ";\n  }\n"])), function (_a) {
+var Input$1 = styled__default["default"].input(templateObject_1$11 || (templateObject_1$11 = __makeTemplateObject(["\n  background-color: ", ";\n  border: 0;\n  border-radius: 10px;\n  box-shadow: ", ";\n  color: ", ";\n  display: block;\n  font-size: 16px;\n  height: ", ";\n  outline: 0;\n  padding: 0 16px;\n  width: 100%;\n  border: 1px solid ", ";\n\n  &::placeholder {\n    color: ", ";\n  }\n\n  &:disabled {\n    background-color: ", ";\n    box-shadow: none;\n    color: ", ";\n    cursor: not-allowed;\n  }\n\n  &:focus:not(:disabled) {\n    box-shadow: ", ";\n  }\n"], ["\n  background-color: ", ";\n  border: 0;\n  border-radius: 10px;\n  box-shadow: ", ";\n  color: ", ";\n  display: block;\n  font-size: 16px;\n  height: ", ";\n  outline: 0;\n  padding: 0 16px;\n  width: 100%;\n  border: 1px solid ", ";\n\n  &::placeholder {\n    color: ", ";\n  }\n\n  &:disabled {\n    background-color: ", ";\n    box-shadow: none;\n    color: ", ";\n    cursor: not-allowed;\n  }\n\n  &:focus:not(:disabled) {\n    box-shadow: ", ";\n  }\n"])), function (_a) {
     var theme = _a.theme;
     return theme.colors.input;
 }, getBoxShadow, function (_a) {
@@ -1740,7 +1704,7 @@ var UnitContainer = styled__default["default"](Text)(templateObject_2$w || (temp
     var theme = _a.theme;
     return theme.colors.textSubtle;
 });
-var StyledBalanceInput = styled__default["default"](Box)(templateObject_3$d || (templateObject_3$d = __makeTemplateObject(["\n  background-color: ", ";\n  border: 1px solid ", ";\n  border-radius: 2px;\n  box-shadow: ", ";\n  padding: 8px 16px;\n"], ["\n  background-color: ", ";\n  border: 1px solid ", ";\n  border-radius: 2px;\n  box-shadow: ", ";\n  padding: 8px 16px;\n"])), function (_a) {
+var StyledBalanceInput = styled__default["default"](Box)(templateObject_3$d || (templateObject_3$d = __makeTemplateObject(["\n  background-color: ", ";\n  border: 1px solid ", ";\n  border-radius: 10px;\n  box-shadow: ", ";\n  padding: 8px 16px;\n"], ["\n  background-color: ", ";\n  border: 1px solid ", ";\n  border-radius: 10px;\n  box-shadow: ", ";\n  padding: 8px 16px;\n"])), function (_a) {
     var theme = _a.theme;
     return theme.colors.input;
 }, function (_a) {
@@ -1833,7 +1797,7 @@ var getBorderColor = function (_a) {
     var theme = _a.theme, variant = _a.variant;
     return theme.colors[variant === variants$6.SUBTLE ? "inputSecondary" : "disabled"];
 };
-var StyledButtonMenu = styled__default["default"].div(templateObject_1$_ || (templateObject_1$_ = __makeTemplateObject(["\n  background-color: ", ";\n  border-radius: 2px;\n  display: ", ";\n  border: 1px solid ", ";\n  width: ", ";\n\n  & > button,\n  & > a {\n    flex: ", ";\n  }\n\n  & > button + button,\n  & > a + a {\n    margin-left: 2px; // To avoid focus shadow overlap\n  }\n\n  & > button,\n  & a {\n    box-shadow: none;\n  }\n\n  ", "\n  ", "\n"], ["\n  background-color: ", ";\n  border-radius: 2px;\n  display: ", ";\n  border: 1px solid ", ";\n  width: ", ";\n\n  & > button,\n  & > a {\n    flex: ", ";\n  }\n\n  & > button + button,\n  & > a + a {\n    margin-left: 2px; // To avoid focus shadow overlap\n  }\n\n  & > button,\n  & a {\n    box-shadow: none;\n  }\n\n  ", "\n  ", "\n"])), getBackgroundColor, function (_a) {
+var StyledButtonMenu = styled__default["default"].div(templateObject_1$_ || (templateObject_1$_ = __makeTemplateObject(["\n  background-color: ", ";\n  border-radius: 10px;\n  display: ", ";\n  border: 1px solid ", ";\n  width: ", ";\n\n  & > button,\n  & > a {\n    flex: ", ";\n  }\n\n  & > button + button,\n  & > a + a {\n    margin-left: 2px; // To avoid focus shadow overlap\n  }\n\n  & > button,\n  & a {\n    box-shadow: none;\n  }\n\n  ", "\n  ", "\n"], ["\n  background-color: ", ";\n  border-radius: 10px;\n  display: ", ";\n  border: 1px solid ", ";\n  width: ", ";\n\n  & > button,\n  & > a {\n    flex: ", ";\n  }\n\n  & > button + button,\n  & > a + a {\n    margin-left: 2px; // To avoid focus shadow overlap\n  }\n\n  & > button,\n  & a {\n    box-shadow: none;\n  }\n\n  ", "\n  ", "\n"])), getBackgroundColor, function (_a) {
     var fullWidth = _a.fullWidth;
     return (fullWidth ? "flex" : "inline-flex");
 }, getBorderColor, function (_a) {
@@ -2114,7 +2078,7 @@ var Bunny = styled__default["default"].div(templateObject_2$r || (templateObject
 var FallingBunnies = function (_a) {
     var _b = _a.count, count = _b === void 0 ? 30 : _b, _c = _a.size, size = _c === void 0 ? 32 : _c, _d = _a.iterations, iterations = _d === void 0 ? Infinity : _d, _e = _a.duration, duration = _e === void 0 ? 10 : _e;
     var bunnies = __spreadArray([], Array(count), true).map(function (_, index) { return (React__default["default"].createElement(Bunny, { key: String(index), position: Math.random() * 100, iterations: iterations, duration: duration },
-        React__default["default"].createElement(Icon$1m, { width: size, height: size }))); });
+        React__default["default"].createElement(Icon$1m, { isDark: true, width: size, height: size }))); });
     return React__default["default"].createElement("div", null, bunnies);
 };
 var templateObject_1$P, templateObject_2$r;
@@ -2411,7 +2375,7 @@ var Icons$2 = {
     warning: Icon$l,
     danger: Icon$2c,
 };
-var MessageContainer = styled__default["default"].div(templateObject_1$C || (templateObject_1$C = __makeTemplateObject(["\n  display: flex;\n  background-color: gray;\n  padding: 16px;\n  border-radius: 2px;\n  border: solid 1px;\n\n  ", "\n  ", "\n"], ["\n  display: flex;\n  background-color: gray;\n  padding: 16px;\n  border-radius: 2px;\n  border: solid 1px;\n\n  ", "\n  ", "\n"])), styledSystem.space, styledSystem.variant({
+var MessageContainer = styled__default["default"].div(templateObject_1$C || (templateObject_1$C = __makeTemplateObject(["\n  display: flex;\n  background-color: gray;\n  padding: 16px;\n  border-radius: 10px;\n  border: solid 1px;\n\n  ", "\n  ", "\n"], ["\n  display: flex;\n  background-color: gray;\n  padding: 16px;\n  border-radius: 10px;\n  border: solid 1px;\n\n  ", "\n  ", "\n"])), styledSystem.space, styledSystem.variant({
     variants: variants$3,
 }));
 var Message = function (_a) {
@@ -2579,7 +2543,7 @@ var additionalColors = {
     gold: "#FFC700",
     silver: "#B2B2B2",
     bronze: "#E7974D",
-    gray: "#F6F6F6",
+    grey: "#F6F6F6",
     green: "green",
     yellow: "yellow",
     red: "red",
@@ -3164,7 +3128,7 @@ var StyledMenuItemContainer = styled__default["default"].div(templateObject_1$q 
     var $isActive = _a.$isActive, $variant = _a.$variant, theme = _a.theme;
     return $isActive &&
         $variant === "subMenu" &&
-        "\n      &:before{\n        content: \"\";\n        position: absolute;\n        bottom: 0;\n        height: 4px;\n        width: 100%;\n        background-color: " + theme.colors.primary + ";\n        border-radius: 2px 2px 0 0;\n      }\n    ";
+        "\n      &:before{\n        content: \"\";\n        position: absolute;\n        bottom: 0;\n        height: 4px;\n        width: 100%;\n        background-color: " + theme.colors.primary + ";\n        border-radius: 10px 2px 0 0;\n      }\n    ";
 });
 var StyledMenuItem = styled__default["default"].a(templateObject_2$g || (templateObject_2$g = __makeTemplateObject(["\n  position: relative;\n  display: flex;\n  align-items: center;\n\n  color: ", ";\n  font-size: 16px;\n  font-weight: ", ";\n\n  ", "\n\n  ", "\n\n  &:hover {\n    background: ", ";\n    ", ";\n  }\n"], ["\n  position: relative;\n  display: flex;\n  align-items: center;\n\n  color: ", ";\n  font-size: 16px;\n  font-weight: ", ";\n\n  ", "\n\n  ", "\n\n  &:hover {\n    background: ", ";\n    ", ";\n  }\n"])), function (_a) {
     var theme = _a.theme, $isActive = _a.$isActive;
@@ -3186,7 +3150,7 @@ var StyledMenuItem = styled__default["default"].a(templateObject_2$g || (templat
     return theme.colors.tertiary;
 }, function (_a) {
     var $variant = _a.$variant;
-    return $variant === "default" && "border-radius: 2px;";
+    return $variant === "default" && "border-radius: 10px;";
 });
 var templateObject_1$q, templateObject_2$g;
 
@@ -3211,10 +3175,7 @@ var SubMenuItems = function (_a) {
     })));
 };
 
-var Td = styled__default["default"].td(templateObject_1$o || (templateObject_1$o = __makeTemplateObject(["\n  border-bottom: 1px solid ", ";\n  color: ", ";\n  padding: 16px;\n  vertical-align: middle;\n\n  ", "\n"], ["\n  border-bottom: 1px solid ", ";\n  color: ", ";\n  padding: 16px;\n  vertical-align: middle;\n\n  ", "\n"])), function (_a) {
-    var theme = _a.theme;
-    return theme.colors.cardBorder;
-}, function (_a) {
+var Td = styled__default["default"].td(templateObject_1$o || (templateObject_1$o = __makeTemplateObject(["\n  border-bottom: 1px solid black;\n  color: ", ";\n  padding: 16px;\n  vertical-align: middle;\n\n  ", "\n"], ["\n  border-bottom: 1px solid black;\n  color: ", ";\n  padding: 16px;\n  vertical-align: middle;\n\n  ", "\n"])), function (_a) {
     var theme = _a.theme;
     return theme.colors.text;
 }, styledSystem.typography);
@@ -3614,7 +3575,7 @@ var Input = styled__default["default"].input(templateObject_2$e || (templateObje
     var theme = _a.theme;
     return theme.shadows.focus;
 });
-var StyledToggle = styled__default["default"].div(templateObject_3$5 || (templateObject_3$5 = __makeTemplateObject(["\n  align-items: center;\n  background-color: ", ";\n  border-radius: 2px;\n  box-shadow: ", ";\n  cursor: pointer;\n  display: inline-flex;\n  height: ", ";\n  position: relative;\n  transition: background-color 200ms;\n  width: ", ";\n"], ["\n  align-items: center;\n  background-color: ", ";\n  border-radius: 2px;\n  box-shadow: ", ";\n  cursor: pointer;\n  display: inline-flex;\n  height: ", ";\n  position: relative;\n  transition: background-color 200ms;\n  width: ", ";\n"])), function (_a) {
+var StyledToggle = styled__default["default"].div(templateObject_3$5 || (templateObject_3$5 = __makeTemplateObject(["\n  align-items: center;\n  background-color: ", ";\n  border-radius: 10px;\n  box-shadow: ", ";\n  cursor: pointer;\n  display: inline-flex;\n  height: ", ";\n  position: relative;\n  transition: background-color 200ms;\n  width: ", ";\n"], ["\n  align-items: center;\n  background-color: ", ";\n  border-radius: 10px;\n  box-shadow: ", ";\n  cursor: pointer;\n  display: inline-flex;\n  height: ", ";\n  position: relative;\n  transition: background-color 200ms;\n  width: ", ";\n"])), function (_a) {
     var theme = _a.theme, $checked = _a.$checked, $checkedColor = _a.$checkedColor, $defaultColor = _a.$defaultColor;
     return theme.colors[$checked ? $checkedColor : $defaultColor];
 }, function (_a) {
@@ -3752,7 +3713,7 @@ var getOutlineStyles = function (_a) {
     }
     return "";
 };
-var StyledTag = styled__default["default"].div(templateObject_1$j || (templateObject_1$j = __makeTemplateObject(["\n  align-items: center;\n  border-radius: 2px;\n  color: #ffffff;\n  display: inline-flex;\n  font-weight: 400;\n  white-space: nowrap;\n\n  & > svg {\n    fill: currentColor;\n  }\n\n  ", "\n\n  ", "\n  ", "\n  ", "\n  ", "\n\n  ", "\n"], ["\n  align-items: center;\n  border-radius: 2px;\n  color: #ffffff;\n  display: inline-flex;\n  font-weight: 400;\n  white-space: nowrap;\n\n  & > svg {\n    fill: currentColor;\n  }\n\n  ", "\n\n  ", "\n  ", "\n  ", "\n  ", "\n\n  ", "\n"])), function (_a) {
+var StyledTag = styled__default["default"].div(templateObject_1$j || (templateObject_1$j = __makeTemplateObject(["\n  align-items: center;\n  border-radius: 10px;\n  color: #ffffff;\n  display: inline-flex;\n  font-weight: 400;\n  white-space: nowrap;\n\n  & > svg {\n    fill: currentColor;\n  }\n\n  ", "\n\n  ", "\n  ", "\n  ", "\n  ", "\n\n  ", "\n"], ["\n  align-items: center;\n  border-radius: 10px;\n  color: #ffffff;\n  display: inline-flex;\n  font-weight: 400;\n  white-space: nowrap;\n\n  & > svg {\n    fill: currentColor;\n  }\n\n  ", "\n\n  ", "\n  ", "\n  ", "\n  ", "\n\n  ", "\n"])), function (_a) {
     var textTransform = _a.textTransform;
     return textTransform && "text-transform: " + textTransform + ";";
 }, styledSystem.variant({
@@ -3783,14 +3744,14 @@ Tag.defaultProps = {
 };
 
 var isTouchDevice = function () {
-    return "ontouchstart" in window || navigator.maxTouchPoints > 0 || navigator.msMaxTouchPoints > 0;
+    return "ontouchstart" in window || navigator.maxTouchPoints > 0 || navigator.maxTouchPoints > 0;
 };
 
-var Arrow = styled__default["default"].div(templateObject_1$i || (templateObject_1$i = __makeTemplateObject(["\n  &,\n  &::before {\n    position: absolute;\n    width: 10px;\n    height: 10px;\n    border-radius: 2px;\n    z-index: -1;\n  }\n\n  &::before {\n    content: \"\";\n    transform: rotate(45deg);\n    background: ", ";\n  }\n"], ["\n  &,\n  &::before {\n    position: absolute;\n    width: 10px;\n    height: 10px;\n    border-radius: 2px;\n    z-index: -1;\n  }\n\n  &::before {\n    content: \"\";\n    transform: rotate(45deg);\n    background: ", ";\n  }\n"])), function (_a) {
+var Arrow = styled__default["default"].div(templateObject_1$i || (templateObject_1$i = __makeTemplateObject(["\n  &,\n  &::before {\n    position: absolute;\n    width: 10px;\n    height: 10px;\n    border-radius: 10px;\n    z-index: -1;\n  }\n\n  &::before {\n    content: \"\";\n    transform: rotate(45deg);\n    background: ", ";\n  }\n"], ["\n  &,\n  &::before {\n    position: absolute;\n    width: 10px;\n    height: 10px;\n    border-radius: 10px;\n    z-index: -1;\n  }\n\n  &::before {\n    content: \"\";\n    transform: rotate(45deg);\n    background: ", ";\n  }\n"])), function (_a) {
     var theme = _a.theme;
     return theme.tooltip.background;
 });
-var StyledTooltip = styled__default["default"].div(templateObject_2$c || (templateObject_2$c = __makeTemplateObject(["\n  padding: 16px;\n  font-size: 16px;\n  line-height: 130%;\n  border-radius: 2px;\n  max-width: 320px;\n  z-index: 101;\n  background: ", ";\n  color: ", ";\n  box-shadow: ", ";\n\n  &[data-popper-placement^=\"top\"] > ", " {\n    bottom: -4px;\n  }\n\n  &[data-popper-placement^=\"bottom\"] > ", " {\n    top: -4px;\n  }\n\n  &[data-popper-placement^=\"left\"] > ", " {\n    right: -4px;\n  }\n\n  &[data-popper-placement^=\"right\"] > ", " {\n    left: -4px;\n  }\n"], ["\n  padding: 16px;\n  font-size: 16px;\n  line-height: 130%;\n  border-radius: 2px;\n  max-width: 320px;\n  z-index: 101;\n  background: ", ";\n  color: ", ";\n  box-shadow: ", ";\n\n  &[data-popper-placement^=\"top\"] > ", " {\n    bottom: -4px;\n  }\n\n  &[data-popper-placement^=\"bottom\"] > ", " {\n    top: -4px;\n  }\n\n  &[data-popper-placement^=\"left\"] > ", " {\n    right: -4px;\n  }\n\n  &[data-popper-placement^=\"right\"] > ", " {\n    left: -4px;\n  }\n"])), function (_a) {
+var StyledTooltip = styled__default["default"].div(templateObject_2$c || (templateObject_2$c = __makeTemplateObject(["\n  padding: 16px;\n  font-size: 16px;\n  line-height: 130%;\n  border-radius: 10px;\n  max-width: 320px;\n  z-index: 101;\n  background: ", ";\n  color: ", ";\n  box-shadow: ", ";\n\n  &[data-popper-placement^=\"top\"] > ", " {\n    bottom: -4px;\n  }\n\n  &[data-popper-placement^=\"bottom\"] > ", " {\n    top: -4px;\n  }\n\n  &[data-popper-placement^=\"left\"] > ", " {\n    right: -4px;\n  }\n\n  &[data-popper-placement^=\"right\"] > ", " {\n    left: -4px;\n  }\n"], ["\n  padding: 16px;\n  font-size: 16px;\n  line-height: 130%;\n  border-radius: 10px;\n  max-width: 320px;\n  z-index: 101;\n  background: ", ";\n  color: ", ";\n  box-shadow: ", ";\n\n  &[data-popper-placement^=\"top\"] > ", " {\n    bottom: -4px;\n  }\n\n  &[data-popper-placement^=\"bottom\"] > ", " {\n    top: -4px;\n  }\n\n  &[data-popper-placement^=\"left\"] > ", " {\n    right: -4px;\n  }\n\n  &[data-popper-placement^=\"right\"] > ", " {\n    left: -4px;\n  }\n"])), function (_a) {
     var theme = _a.theme;
     return theme.tooltip.background;
 }, function (_a) {
@@ -4215,7 +4176,7 @@ var ModalBackButton = function (_a) {
     return (React__default["default"].createElement(IconButton, { variant: "text", onClick: onBack, "area-label": "go back", mr: "8px" },
         React__default["default"].createElement(Icon$26, { color: "primary" })));
 };
-var ModalContainer = styled__default["default"](Box)(templateObject_4$3 || (templateObject_4$3 = __makeTemplateObject(["\n  overflow: hidden;\n  background: ", ";\n  box-shadow: 0px 20px 36px -8px rgba(14, 14, 44, 0.1), 0px 1px 1px rgba(0, 0, 0, 0.05);\n  border: 1px solid ", ";\n  border-radius: 2px;\n  width: 100%;\n  max-height: 100vh;\n  z-index: ", ";\n\n  ", " {\n    width: auto;\n    min-width: ", ";\n    max-width: 100%;\n  }\n"], ["\n  overflow: hidden;\n  background: ", ";\n  box-shadow: 0px 20px 36px -8px rgba(14, 14, 44, 0.1), 0px 1px 1px rgba(0, 0, 0, 0.05);\n  border: 1px solid ", ";\n  border-radius: 2px;\n  width: 100%;\n  max-height: 100vh;\n  z-index: ", ";\n\n  ", " {\n    width: auto;\n    min-width: ", ";\n    max-width: 100%;\n  }\n"])), function (_a) {
+var ModalContainer = styled__default["default"](Box)(templateObject_4$3 || (templateObject_4$3 = __makeTemplateObject(["\n  overflow: hidden;\n  background: ", ";\n  box-shadow: 0px 20px 36px -8px rgba(14, 14, 44, 0.1), 0px 1px 1px rgba(0, 0, 0, 0.05);\n  border: 1px solid ", ";\n  border-radius: 10px;\n  width: 100%;\n  max-height: 100vh;\n  z-index: ", ";\n\n  ", " {\n    width: auto;\n    min-width: ", ";\n    max-width: 100%;\n  }\n"], ["\n  overflow: hidden;\n  background: ", ";\n  box-shadow: 0px 20px 36px -8px rgba(14, 14, 44, 0.1), 0px 1px 1px rgba(0, 0, 0, 0.05);\n  border: 1px solid ", ";\n  border-radius: 10px;\n  width: 100%;\n  max-height: 100vh;\n  z-index: ", ";\n\n  ", " {\n    width: auto;\n    min-width: ", ";\n    max-width: 100%;\n  }\n"])), function (_a) {
     var theme = _a.theme;
     return theme.modal.background;
 }, function (_a) {
@@ -4371,7 +4332,7 @@ var AnimatedIconComponent = function (_a) {
             React__default["default"].createElement(IconElementFill, { color: activeColor }))))) : null;
 };
 
-var StyledBottomNavItem$1 = styled__default["default"].button(templateObject_1$d || (templateObject_1$d = __makeTemplateObject(["\n  display: block;\n  border: 0;\n  background: transparent;\n  cursor: pointer;\n  height: 44px;\n  padding: 4px 12px;\n  &:hover {\n    border-radius: 2px;\n  }\n  &:hover,\n  &:hover div {\n    background: ", ";\n  }\n"], ["\n  display: block;\n  border: 0;\n  background: transparent;\n  cursor: pointer;\n  height: 44px;\n  padding: 4px 12px;\n  &:hover {\n    border-radius: 2px;\n  }\n  &:hover,\n  &:hover div {\n    background: ", ";\n  }\n"])), function (_a) {
+var StyledBottomNavItem$1 = styled__default["default"].button(templateObject_1$d || (templateObject_1$d = __makeTemplateObject(["\n  display: block;\n  border: 0;\n  background: transparent;\n  cursor: pointer;\n  height: 44px;\n  padding: 4px 12px;\n  &:hover {\n    border-radius: 10px;\n  }\n  &:hover,\n  &:hover div {\n    background: ", ";\n  }\n"], ["\n  display: block;\n  border: 0;\n  background: transparent;\n  cursor: pointer;\n  height: 44px;\n  padding: 4px 12px;\n  &:hover {\n    border-radius: 10px;\n  }\n  &:hover,\n  &:hover div {\n    background: ", ";\n  }\n"])), function (_a) {
     var theme = _a.theme;
     return theme.colors.tertiary;
 });
@@ -4425,7 +4386,7 @@ var StyledOverlay = styled__default["default"].div(templateObject_4$2 || (templa
     var theme = _a.theme;
     return theme.colors.text + "99";
 });
-var StyledDropdownMenu = styled__default["default"].div(templateObject_5$1 || (templateObject_5$1 = __makeTemplateObject(["\n  background-color: ", ";\n  border: 1px solid ", ";\n  border-radius: 2px;\n  padding-bottom: 4px;\n  padding-top: 4px;\n  pointer-events: auto;\n  width: ", ";\n  visibility: visible;\n  z-index: 1001;\n\n  ", "\n"], ["\n  background-color: ", ";\n  border: 1px solid ", ";\n  border-radius: 2px;\n  padding-bottom: 4px;\n  padding-top: 4px;\n  pointer-events: auto;\n  width: ", ";\n  visibility: visible;\n  z-index: 1001;\n\n  ", "\n"])), function (_a) {
+var StyledDropdownMenu = styled__default["default"].div(templateObject_5$1 || (templateObject_5$1 = __makeTemplateObject(["\n  background-color: ", ";\n  border: 1px solid ", ";\n  border-radius: 10px;\n  padding-bottom: 4px;\n  padding-top: 4px;\n  pointer-events: auto;\n  width: ", ";\n  visibility: visible;\n  z-index: 1001;\n\n  ", "\n"], ["\n  background-color: ", ";\n  border: 1px solid ", ";\n  border-radius: 10px;\n  padding-bottom: 4px;\n  padding-top: 4px;\n  pointer-events: auto;\n  width: ", ";\n  visibility: visible;\n  z-index: 1001;\n\n  ", "\n"])), function (_a) {
     var theme = _a.theme;
     return theme.card.background;
 }, function (_a) {
@@ -4585,80 +4546,22 @@ var socials = [
     {
         label: "Twitter",
         icon: "Twitter",
-        href: "https://twitter.com/pancakeswap",
+        href: "https://twitter.com/DragonchainDEX",
     },
     {
         label: "Telegram",
         icon: "Telegram",
-        items: [
-            {
-                label: "English",
-                href: "https://t.me/pancakeswap",
-            },
-            {
-                label: "Bahasa Indonesia",
-                href: "https://t.me/PancakeSwapIndonesia",
-            },
-            {
-                label: "中文",
-                href: "https://t.me/PancakeSwap_CN",
-            },
-            {
-                label: "Tiếng Việt",
-                href: "https://t.me/PancakeSwapVN",
-            },
-            {
-                label: "Italiano",
-                href: "https://t.me/pancakeswap_ita",
-            },
-            {
-                label: "русский",
-                href: "https://t.me/pancakeswap_ru",
-            },
-            {
-                label: "Türkiye",
-                href: "https://t.me/pancakeswapturkiye",
-            },
-            {
-                label: "Português",
-                href: "https://t.me/PancakeSwapPortuguese",
-            },
-            {
-                label: "Español",
-                href: "https://t.me/PancakeswapEs",
-            },
-            {
-                label: "日本語",
-                href: "https://t.me/pancakeswapjp",
-            },
-            {
-                label: "Français",
-                href: "https://t.me/pancakeswapfr",
-            },
-            {
-                label: "Announcements",
-                href: "https://t.me/PancakeSwapAnn",
-            },
-            {
-                label: "Whale Alert",
-                href: "https://t.me/PancakeSwapWhales",
-            },
-        ],
+        href: "https://t.me/DragonchainOfficial",
     },
     {
-        label: "Reddit",
-        icon: "Reddit",
-        href: "https://reddit.com/r/pancakeswap",
-    },
-    {
-        label: "Instagram",
-        icon: "Instagram",
-        href: "https://instagram.com/pancakeswap_official",
+        label: "Facebook",
+        icon: "Facebook",
+        href: "https://www.facebook.com/groups/dragonchain.finance",
     },
     {
         label: "Github",
         icon: "Github",
-        href: "https://github.com/pancakeswap/",
+        href: "https://github.com/dragonchaindex",
     },
 ];
 __spreadArray([], Array(20), true).map(function (_, i) { return ({
@@ -4700,48 +4603,26 @@ var StyledToolsContainer = styled__default["default"](Flex)(templateObject_5 || 
 var StyledSocialLinks = styled__default["default"](SocialLinks$1)(templateObject_6 || (templateObject_6 = __makeTemplateObject(["\n  border-bottom: 1px solid ", ";\n"], ["\n  border-bottom: 1px solid ", ";\n"])), darkColors.cardBorder);
 var templateObject_1$a, templateObject_2$6, templateObject_3$2, templateObject_4$1, templateObject_5, templateObject_6;
 
-var MenuButton = styled__default["default"](Button)(templateObject_1$9 || (templateObject_1$9 = __makeTemplateObject(["\n  color: ", ";\n  padding: 0 8px;\n  border-radius: 8px;\n"], ["\n  color: ", ";\n  padding: 0 8px;\n  border-radius: 8px;\n"])), function (_a) {
-    var theme = _a.theme;
-    return theme.colors.text;
-});
-MenuButton.defaultProps = {
-    variant: "text",
-    size: "sm",
-};
-var templateObject_1$9;
-
-var LangSelector = function (_a) {
-    var currentLang = _a.currentLang, langs = _a.langs, color = _a.color, setLang = _a.setLang, _b = _a.dropdownPosition, dropdownPosition = _b === void 0 ? "bottom" : _b, _c = _a.buttonScale, buttonScale = _c === void 0 ? "md" : _c, _d = _a.hideLanguage, hideLanguage = _d === void 0 ? false : _d;
-    return (React__default["default"].createElement(Dropdown, { position: dropdownPosition, target: React__default["default"].createElement(Button, { scale: buttonScale, variant: "text", startIcon: React__default["default"].createElement(Icon$1s, { color: color, width: "24px" }) }, !hideLanguage && React__default["default"].createElement(Text, { color: color }, currentLang === null || currentLang === void 0 ? void 0 : currentLang.toUpperCase())) }, langs.map(function (lang) { return (React__default["default"].createElement(MenuButton, { key: lang.locale, fullWidth: true, onClick: function () { return setLang(lang); }, 
-        // Safari fix
-        style: { minHeight: "32px", height: "auto" } }, lang.language)); })));
-};
-var LangSelector$1 = React__default["default"].memo(LangSelector, function (prev, next) { return prev.currentLang === next.currentLang; });
-
 var MenuItem = function (_a) {
-    var items = _a.items, isDark = _a.isDark, toggleTheme = _a.toggleTheme, currentLang = _a.currentLang, langs = _a.langs, setLang = _a.setLang, cakePriceUsd = _a.cakePriceUsd, buyCakeLabel = _a.buyCakeLabel, props = __rest(_a, ["items", "isDark", "toggleTheme", "currentLang", "langs", "setLang", "cakePriceUsd", "buyCakeLabel"]);
+    var items = _a.items; _a.isDark; _a.toggleTheme; _a.currentLang; _a.langs; _a.setLang; var cakePriceUsd = _a.cakePriceUsd, buyCakeLabel = _a.buyCakeLabel, props = __rest(_a, ["items", "isDark", "toggleTheme", "currentLang", "langs", "setLang", "cakePriceUsd", "buyCakeLabel"]);
     return (React__default["default"].createElement(StyledFooter, __assign({ p: ["40px 16px", null, "56px 40px 32px 40px"] }, props, { justifyContent: "center" }),
         React__default["default"].createElement(Flex, { flexDirection: "column", width: ["100%", null, "1200px;"] },
             React__default["default"].createElement(StyledIconMobileContainer, { display: ["block", null, "none"] },
                 React__default["default"].createElement(LogoWithTextIcon, { isDark: true, width: "130px" })),
-            React__default["default"].createElement(Flex, { order: [2, null, 1], flexDirection: ["column", null, "row"], justifyContent: "space-between", alignItems: "flex-start", mb: ["42px", null, "36px"] }, items === null || items === void 0 ? void 0 :
-                items.map(function (item) {
-                    var _a;
-                    return (React__default["default"].createElement(StyledList, { key: item.label },
-                        React__default["default"].createElement(StyledListItem, null, item.label), (_a = item.items) === null || _a === void 0 ? void 0 :
-                        _a.map(function (_a) {
-                            var label = _a.label, href = _a.href, _b = _a.isHighlighted, isHighlighted = _b === void 0 ? false : _b;
-                            return (React__default["default"].createElement(StyledListItem, { key: label },
-                                React__default["default"].createElement(Link, { href: href, target: "_blank", rel: "noreferrer noopener", color: isHighlighted ? baseColors.warning : darkColors.text, bold: false }, label)));
-                        })));
-                }),
-                React__default["default"].createElement(Box, { display: ["none", null, "block"] },
-                    React__default["default"].createElement(LogoWithTextIcon, { isDark: true, width: "160px" }))),
-            React__default["default"].createElement(StyledSocialLinks, { order: [2], pb: ["42px", null, "32px"], mb: ["0", null, "32px"] }),
+            React__default["default"].createElement(Flex, { order: [2, null, 1], flexDirection: ["column", null, "row"], justifyContent: "space-between", alignItems: "flex-start", mb: ["42px", null, "36px"] }, items === null || items === void 0 ? void 0 : items.map(function (item) {
+                var _a;
+                return (React__default["default"].createElement(StyledList, { key: item.label },
+                    React__default["default"].createElement(StyledListItem, null, item.label), (_a = item.items) === null || _a === void 0 ? void 0 :
+                    _a.map(function (_a) {
+                        var label = _a.label, href = _a.href, _b = _a.isHighlighted, isHighlighted = _b === void 0 ? false : _b;
+                        return (React__default["default"].createElement(StyledListItem, { key: label },
+                            React__default["default"].createElement(Link, { href: href, target: "_blank", rel: "noreferrer noopener", color: isHighlighted ? baseColors.warning : darkColors.text, bold: false }, label)));
+                    })));
+            })),
             React__default["default"].createElement(StyledToolsContainer, { order: [1, null, 3], flexDirection: ["column", null, "row"], justifyContent: "space-between" },
-                React__default["default"].createElement(Flex, { order: [2, null, 1], alignItems: "center" },
-                    React__default["default"].createElement(ThemeSwitcher$1, { isDark: isDark, toggleTheme: toggleTheme }),
-                    React__default["default"].createElement(LangSelector$1, { currentLang: currentLang, langs: langs, setLang: setLang, color: darkColors.textSubtle, dropdownPosition: "top-right" })),
+                React__default["default"].createElement(Box, { display: ["none", null, "block"] },
+                    React__default["default"].createElement(LogoWithTextIcon, { isDark: true, width: "160px" })),
+                React__default["default"].createElement(StyledSocialLinks, { order: [2], pb: ["42px", null, "32px"], mb: ["0", null, "32px"] }),
                 React__default["default"].createElement(Flex, { order: [1, null, 2], mb: ["24px", null, "0"], justifyContent: "space-between", alignItems: "center" },
                     React__default["default"].createElement(Box, { mr: "20px" },
                         React__default["default"].createElement(CakePrice$1, { cakePriceUsd: cakePriceUsd, color: darkColors.textSubtle })),
@@ -4760,7 +4641,7 @@ var MenuItems = function (_a) {
     })));
 };
 
-var blink = styled.keyframes(templateObject_1$8 || (templateObject_1$8 = __makeTemplateObject(["\n  0%,  100% { transform: scaleY(1); } \n  50% { transform:  scaleY(0.1); } \n"], ["\n  0%,  100% { transform: scaleY(1); } \n  50% { transform:  scaleY(0.1); } \n"])));
+var blink = styled.keyframes(templateObject_1$9 || (templateObject_1$9 = __makeTemplateObject(["\n  0%,  100% { transform: scaleY(1); } \n  50% { transform:  scaleY(0.1); } \n"], ["\n  0%,  100% { transform: scaleY(1); } \n  50% { transform:  scaleY(0.1); } \n"])));
 var StyledLink = styled__default["default"](reactRouterDom.Link)(templateObject_2$5 || (templateObject_2$5 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 32px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 160px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n  .right-eye {\n    animation-delay: 20ms;\n  }\n  &:hover {\n    .left-eye,\n    .right-eye {\n      transform-origin: center 60%;\n      animation-name: ", ";\n      animation-duration: 350ms;\n      animation-iteration-count: 1;\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 32px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 160px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n  .right-eye {\n    animation-delay: 20ms;\n  }\n  &:hover {\n    .left-eye,\n    .right-eye {\n      transform-origin: center 60%;\n      animation-name: ", ";\n      animation-duration: 350ms;\n      animation-iteration-count: 1;\n    }\n  }\n"])), function (_a) {
     var theme = _a.theme;
     return theme.mediaQueries.nav;
@@ -4774,10 +4655,10 @@ var Logo = function (_a) {
     var innerLogo = (React__default["default"].createElement(React__default["default"].Fragment, null,
         React__default["default"].createElement(Icon$1m, { className: "mobile-icon", isDark: isDark }),
         React__default["default"].createElement(LogoWithTextIcon, { className: "desktop-icon", isDark: isDark })));
-    return (React__default["default"].createElement(Flex, null, isAbsoluteUrl ? (React__default["default"].createElement(StyledLink, { as: "a", href: href, "aria-label": "Pancake home page" }, innerLogo)) : (React__default["default"].createElement(StyledLink, { to: href, "aria-label": "Pancake home page" }, innerLogo))));
+    return (React__default["default"].createElement(Flex, null, isAbsoluteUrl ? (React__default["default"].createElement(StyledLink, { as: "a", href: href, "aria-label": "Dragon Chain home page" }, innerLogo)) : (React__default["default"].createElement(StyledLink, { to: href, "aria-label": "Dragon Chain home page" }, innerLogo))));
 };
 var Logo$1 = React__default["default"].memo(Logo, function (prev, next) { return prev.isDark === next.isDark; });
-var templateObject_1$8, templateObject_2$5;
+var templateObject_1$9, templateObject_2$5;
 
 var status = {
     LIVE: {
@@ -4931,6 +4812,24 @@ var links = [
 var MENU_HEIGHT = 100;
 var MOBILE_MENU_HEIGHT = 44;
 
+var MenuButton = styled__default["default"](Button)(templateObject_1$8 || (templateObject_1$8 = __makeTemplateObject(["\n  color: ", ";\n  padding: 0 8px;\n  border-radius: 8px;\n"], ["\n  color: ", ";\n  padding: 0 8px;\n  border-radius: 8px;\n"])), function (_a) {
+    var theme = _a.theme;
+    return theme.colors.text;
+});
+MenuButton.defaultProps = {
+    variant: "text",
+    size: "sm",
+};
+var templateObject_1$8;
+
+var LangSelector = function (_a) {
+    var currentLang = _a.currentLang, langs = _a.langs, color = _a.color, setLang = _a.setLang, _b = _a.dropdownPosition, dropdownPosition = _b === void 0 ? "bottom" : _b, _c = _a.buttonScale, buttonScale = _c === void 0 ? "md" : _c, _d = _a.hideLanguage, hideLanguage = _d === void 0 ? false : _d;
+    return (React__default["default"].createElement(Dropdown, { position: dropdownPosition, target: React__default["default"].createElement(Button, { scale: buttonScale, variant: "text", startIcon: React__default["default"].createElement(Icon$1s, { color: color, width: "24px" }) }, !hideLanguage && React__default["default"].createElement(Text, { color: color }, currentLang === null || currentLang === void 0 ? void 0 : currentLang.toUpperCase())) }, langs.map(function (lang) { return (React__default["default"].createElement(MenuButton, { key: lang.locale, fullWidth: true, onClick: function () { return setLang(lang); }, 
+        // Safari fix
+        style: { minHeight: "32px", height: "auto" } }, lang.language)); })));
+};
+var LangSelector$1 = React__default["default"].memo(LangSelector, function (prev, next) { return prev.currentLang === next.currentLang; });
+
 var Wrapper = styled__default["default"].div(templateObject_1$7 || (templateObject_1$7 = __makeTemplateObject(["\n  position: relative;\n  width: 100%;\n"], ["\n  position: relative;\n  width: 100%;\n"])));
 var StyledNav = styled__default["default"].nav(templateObject_2$4 || (templateObject_2$4 = __makeTemplateObject(["\n  position: fixed;\n  top: ", ";\n  left: 0;\n  transition: top 0.2s;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  width: 100%;\n  height: ", "px;\n  background-color: ", ";\n  z-index: 20;\n  transform: translate3d(0, 0, 0);\n\n  padding-left: 16px;\n  padding-right: 16px;\n"], ["\n  position: fixed;\n  top: ", ";\n  left: 0;\n  transition: top 0.2s;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  width: 100%;\n  height: ", "px;\n  background-color: ", ";\n  z-index: 20;\n  transform: translate3d(0, 0, 0);\n\n  padding-left: 16px;\n  padding-right: 16px;\n"])), function (_a) {
     var showMenu = _a.showMenu;
@@ -5056,7 +4955,7 @@ var UserMenuItem = styled__default["default"].button(templateObject_2$2 || (temp
 });
 var templateObject_1$5, templateObject_2$2;
 
-var StyledUserMenu = styled__default["default"](Flex)(templateObject_1$4 || (templateObject_1$4 = __makeTemplateObject(["\n  align-items: center;\n  background-color: ", ";\n  border-radius: 2px;\n  box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.1);\n  cursor: pointer;\n  display: inline-flex;\n  height: 32px;\n  padding-left: 40px;\n  padding-right: 8px;\n  position: relative;\n\n  &:hover {\n    opacity: 0.65;\n  }\n"], ["\n  align-items: center;\n  background-color: ", ";\n  border-radius: 2px;\n  box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.1);\n  cursor: pointer;\n  display: inline-flex;\n  height: 32px;\n  padding-left: 40px;\n  padding-right: 8px;\n  position: relative;\n\n  &:hover {\n    opacity: 0.65;\n  }\n"])), function (_a) {
+var StyledUserMenu = styled__default["default"](Flex)(templateObject_1$4 || (templateObject_1$4 = __makeTemplateObject(["\n  align-items: center;\n  background-color: ", ";\n  border-radius: 10px;\n  box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.1);\n  cursor: pointer;\n  display: inline-flex;\n  height: 32px;\n  padding-left: 40px;\n  padding-right: 8px;\n  position: relative;\n\n  &:hover {\n    opacity: 0.65;\n  }\n"], ["\n  align-items: center;\n  background-color: ", ";\n  border-radius: 10px;\n  box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.1);\n  cursor: pointer;\n  display: inline-flex;\n  height: 32px;\n  padding-left: 40px;\n  padding-right: 8px;\n  position: relative;\n\n  &:hover {\n    opacity: 0.65;\n  }\n"])), function (_a) {
     var theme = _a.theme;
     return theme.colors.tertiary;
 });
@@ -5067,7 +4966,7 @@ var LabelText = styled__default["default"].div(templateObject_2$1 || (templateOb
     var theme = _a.theme;
     return theme.mediaQueries.sm;
 });
-var Menu = styled__default["default"].div(templateObject_3 || (templateObject_3 = __makeTemplateObject(["\n  background-color: ", ";\n  border: 1px solid ", ";\n  border-radius: 2px;\n  padding-bottom: 4px;\n  padding-top: 4px;\n  pointer-events: auto;\n  width: 280px;\n  visibility: visible;\n  z-index: 1001;\n\n  ", "\n\n  ", ":first-child {\n    border-radius: 8px 8px 0 0;\n  }\n\n  ", ":last-child {\n    border-radius: 0 0 8px 8px;\n  }\n"], ["\n  background-color: ", ";\n  border: 1px solid ", ";\n  border-radius: 2px;\n  padding-bottom: 4px;\n  padding-top: 4px;\n  pointer-events: auto;\n  width: 280px;\n  visibility: visible;\n  z-index: 1001;\n\n  ", "\n\n  ", ":first-child {\n    border-radius: 8px 8px 0 0;\n  }\n\n  ", ":last-child {\n    border-radius: 0 0 8px 8px;\n  }\n"])), function (_a) {
+var Menu = styled__default["default"].div(templateObject_3 || (templateObject_3 = __makeTemplateObject(["\n  background-color: ", ";\n  border: 1px solid ", ";\n  border-radius: 10px;\n  padding-bottom: 4px;\n  padding-top: 4px;\n  pointer-events: auto;\n  width: 280px;\n  visibility: visible;\n  z-index: 1001;\n\n  ", "\n\n  ", ":first-child {\n    border-radius: 8px 8px 0 0;\n  }\n\n  ", ":last-child {\n    border-radius: 0 0 8px 8px;\n  }\n"], ["\n  background-color: ", ";\n  border: 1px solid ", ";\n  border-radius: 10px;\n  padding-bottom: 4px;\n  padding-top: 4px;\n  pointer-events: auto;\n  width: 280px;\n  visibility: visible;\n  z-index: 1001;\n\n  ", "\n\n  ", ":first-child {\n    border-radius: 8px 8px 0 0;\n  }\n\n  ", ":last-child {\n    border-radius: 0 0 8px 8px;\n  }\n"])), function (_a) {
     var theme = _a.theme;
     return theme.card.background;
 }, function (_a) {
@@ -5236,7 +5135,7 @@ var WalletCard = function (_a) {
     var login = _a.login, walletConfig = _a.walletConfig, onDismiss = _a.onDismiss;
     var title = walletConfig.title, Icon = walletConfig.icon;
     return (React__default["default"].createElement(WalletButton, { variant: "tertiary", onClick: function () {
-            var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+            var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
             // Since iOS does not support Trust Wallet we fall back to WalletConnect
             if (walletConfig.title === "Trust Wallet" && isIOS) {
                 login(exports.ConnectorNames.WalletConnect);
@@ -5304,7 +5203,7 @@ var StyleButton = styled__default["default"](Text).attrs({ role: "button" })(tem
     var theme = _a.theme;
     return theme.colors.primary;
 });
-var Tooltip = styled__default["default"].div(templateObject_2 || (templateObject_2 = __makeTemplateObject(["\n  display: ", ";\n  position: absolute;\n  bottom: -22px;\n  right: 0;\n  left: 0;\n  text-align: center;\n  background-color: ", ";\n  color: ", ";\n  border-radius: 2px;\n  opacity: 0.7;\n"], ["\n  display: ", ";\n  position: absolute;\n  bottom: -22px;\n  right: 0;\n  left: 0;\n  text-align: center;\n  background-color: ", ";\n  color: ", ";\n  border-radius: 2px;\n  opacity: 0.7;\n"])), function (_a) {
+var Tooltip = styled__default["default"].div(templateObject_2 || (templateObject_2 = __makeTemplateObject(["\n  display: ", ";\n  position: absolute;\n  bottom: -22px;\n  right: 0;\n  left: 0;\n  text-align: center;\n  background-color: ", ";\n  color: ", ";\n  border-radius: 10px;\n  opacity: 0.7;\n"], ["\n  display: ", ";\n  position: absolute;\n  bottom: -22px;\n  right: 0;\n  left: 0;\n  text-align: center;\n  background-color: ", ";\n  color: ", ";\n  border-radius: 10px;\n  opacity: 0.7;\n"])), function (_a) {
     var isTooltipDisplayed = _a.isTooltipDisplayed;
     return (isTooltipDisplayed ? "block" : "none");
 }, function (_a) {

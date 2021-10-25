@@ -14,7 +14,7 @@ export declare const additionalColors: {
     gold: string;
     silver: string;
     bronze: string;
-    gray: string;
+    grey: string;
     green: string;
     yellow: string;
     red: string;

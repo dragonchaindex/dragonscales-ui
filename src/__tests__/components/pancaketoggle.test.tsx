@@ -283,7 +283,7 @@ it("renders correctly scale sm", () => {
       top: 3px;
       left: 10px;
       position: absolute;
-      border-radius: 2px;
+      border-radius: 10px;
       box-shadow: 0 0.5px 0 0.5px #d67823;
       -webkit-transform: scale(0);
       -ms-transform: scale(0);

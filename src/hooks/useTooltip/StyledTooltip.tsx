@@ -6,7 +6,7 @@ export const Arrow = styled.div`
     position: absolute;
     width: 10px;
     height: 10px;
-    border-radius: 2px;
+    border-radius: 10px;
     z-index: -1;
   }
 
@@ -21,7 +21,7 @@ export const StyledTooltip = styled.div`
   padding: 16px;
   font-size: 16px;
   line-height: 130%;
-  border-radius: 2px;
+  border-radius: 10px;
   max-width: 320px;
   z-index: 101;
   background: ${({ theme }) => theme.tooltip.background};

@@ -9,7 +9,7 @@ export const StyledBottomNavItem = styled.button`
   height: 44px;
   padding: 4px 12px;
   &:hover {
-    border-radius: 2px;
+    border-radius: 10px;
   }
   &:hover,
   &:hover div {

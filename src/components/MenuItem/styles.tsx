@@ -15,7 +15,7 @@ export const StyledMenuItemContainer = styled.div<StyledMenuItemProps>`
         height: 4px;
         width: 100%;
         background-color: ${theme.colors.primary};
-        border-radius: 2px 2px 0 0;
+        border-radius: 10px 2px 0 0;
       }
     `};
 `;
@@ -55,7 +55,7 @@ const StyledMenuItem = styled.a<StyledMenuItemProps>`
 
   &:hover {
     background: ${({ theme }) => theme.colors.tertiary};
-    ${({ $variant }) => $variant === "default" && "border-radius: 2px;"};
+    ${({ $variant }) => $variant === "default" && "border-radius: 10px;"};
   }
 `;
 
