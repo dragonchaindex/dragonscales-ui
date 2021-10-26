@@ -2,7 +2,7 @@ import { getQueriesForElement } from "@testing-library/dom";
 import { Colors } from "./types";
 
 export const baseColors = {
-  failure: "#ED4B9E",
+  failure: "#ed2828",
   primary: "#ff9400",
   primaryBright: "#53DEE9",
   primaryDark: "#0098A1",
