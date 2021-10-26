@@ -2573,7 +2573,7 @@ var darkColors = __assign(__assign(__assign({}, baseColors), additionalColors), 
         violet: "linear-gradient(180deg, #6C4999 0%, #6D4DB2 100%)",
         violetAlt: "linear-gradient(180deg, #434575 0%, #66578D 100%)",
         gold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
-        linear: "linear-gradient(90deg, rgba(0,0,0,.5) 0%, rgba(0,0,0,.1) 40%, rgba(0,0,0,.1) 60%, rgba(0,0,0,0.5) 100%)"
+        linear: "linear-gradient(90deg, rgba(0,0,0,.5) 0%, rgba(0,0,0,1) 40%, rgba(0,0,0,1) 60%, rgba(0,0,0,0.5) 100%)"
     } });
 
 var light$7 = {
@@ -4611,7 +4611,7 @@ var templateObject_1$a, templateObject_2$6, templateObject_3$2, templateObject_4
 
 var MenuItem = function (_a) {
     var items = _a.items; _a.isDark; _a.toggleTheme; _a.currentLang; _a.langs; _a.setLang; var cakePriceUsd = _a.cakePriceUsd, buyCakeLabel = _a.buyCakeLabel, props = __rest(_a, ["items", "isDark", "toggleTheme", "currentLang", "langs", "setLang", "cakePriceUsd", "buyCakeLabel"]);
-    return (React__default["default"].createElement(StyledFooter, __assign({ p: ["40px 16px", null, "56px 40px 32px 40px"] }, props, { justifyContent: "center" }),
+    return (React__default["default"].createElement(StyledFooter, __assign({ p: ["40px 16px", null, "32px 40px 32px 40px"] }, props, { justifyContent: "center" }),
         React__default["default"].createElement(Flex, { flexDirection: "column", width: ["100%", null, "1200px;"] },
             React__default["default"].createElement(StyledIconMobileContainer, { display: ["block", null, "none"] },
                 React__default["default"].createElement(LogoWithTextIcon, { isDark: true, width: "130px" })),
