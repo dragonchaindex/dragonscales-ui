@@ -2573,7 +2573,7 @@ var darkColors = __assign(__assign(__assign({}, baseColors), additionalColors), 
         violet: "linear-gradient(180deg, #6C4999 0%, #6D4DB2 100%)",
         violetAlt: "linear-gradient(180deg, #434575 0%, #66578D 100%)",
         gold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
-        linear: "linear-gradient(90deg, rgba(0,0,0,.5) 0%, rgba(0,0,0,1) 40%, rgba(0,0,0,1) 60%, rgba(0,0,0,0.5) 100%)"
+        linear: "linear-gradient(90deg, rgba(0,0,0,.4) 0%, rgba(255,25,255,.15) 40%, rgba(25,255,255,.15) 60%, rgba(0,0,0,0.4) 100%)"
     } });
 
 var light$7 = {
