@@ -43,6 +43,7 @@ export { default as EarnFilledIcon } from "./Icons/EarnFilled";
 export { default as ErrorIcon } from "./Icons/Error";
 export { default as EllipsisIcon } from "./Icons/Ellipsis";
 export { default as InstagramIcon } from "./Icons/Instagram";
+export { default as FacebookIcon } from "./Icons/Facebook";
 export { default as GithubIcon } from "./Icons/Github";
 export { default as HelpIcon } from "./Icons/Help";
 export { default as HistoryIcon } from "./Icons/History";

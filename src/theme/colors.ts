@@ -62,7 +62,7 @@ export const darkColors: Colors = {
   background: "#010101",
   backgroundDisabled: "#3c3742",
   backgroundAlt: "#0a0a0a",
-  backgroundAlt2: "#202020",
+  backgroundAlt2: "#010101",
   cardBorder: "#383241",
   contrast: "#FFFFFF",
   dropdown: "#202020",
@@ -84,6 +84,6 @@ export const darkColors: Colors = {
     violet: "linear-gradient(180deg, #6C4999 0%, #6D4DB2 100%)",
     violetAlt: "linear-gradient(180deg, #434575 0%, #66578D 100%)",
     gold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
-    linear: "linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(20,20,20,1) 40%, rgba(20,20,20,1) 60%, rgba(0,0,0,0) 100%)"
+    linear: "linear-gradient(90deg, rgba(0,0,0,.5) 0%, rgba(0,0,0,.1) 40%, rgba(0,0,0,.1) 60%, rgba(0,0,0,0.5) 100%)"
   },
 };

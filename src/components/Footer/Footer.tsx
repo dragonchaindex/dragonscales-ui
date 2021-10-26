@@ -71,7 +71,7 @@ const MenuItem: React.FC<FooterProps> = ({
             <LogoWithTextIcon isDark width="160px" />
           </Box>
           
-          <StyledSocialLinks order={[2]} pb={["42px", null, "32px"]} mb={["0", null, "32px"]} />
+          <StyledSocialLinks order={[2]} />
           
           <Flex order={[1, null, 2]} mb={["24px", null, "0"]} justifyContent="space-between" alignItems="center">
             <Box mr="20px">
