@@ -1,3 +1,4 @@
+// @ts-ignore
 import React from "react";
 import { BrowserRouter, Link as RouterLink } from "react-router-dom";
 import Text from "../Text/Text";
